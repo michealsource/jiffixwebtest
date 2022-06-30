@@ -1,0 +1,23 @@
+
+.privacy-header{
+    font-size: 50px !important;
+}
+
+.first p{
+    padding: 1px 0px;
+    margin: 10px 0px;
+    line-height: 30px;
+    font-weight: 400 !important;
+    font-size: 16px  !important;
+}
+
+.sub{
+    font-weight: 600;
+}
+
+@media(max-width:650px){
+    .privacy-header{
+        font-size: 30px !important;
+    }
+     
+}

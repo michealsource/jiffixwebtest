@@ -1,0 +1,286 @@
+.services-cointainer h5 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+.services-cointainer h5 span {
+    color: #27ADE3;
+}
+
+.services-cointainer p {
+    width: 346px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.start-now-btn {
+    outline: none;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    width: 180px;
+    height: 40px;
+    background: #16222C;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.tunnel {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.mobile h5 {
+    font-size: 35px;
+    font-weight: 700;
+    flex: 1;
+    padding: 13px 0;
+}
+
+.mobile div {
+    flex: 6;
+    margin-top: 10px;
+}
+
+.mobile img {
+    margin-bottom: 10px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.drive-in img {
+    margin-bottom: 15px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.drive-in h5 {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.drive-in div {
+    flex: 5;
+}
+
+.hybrid div {
+    flex: 5;
+
+}
+
+.hybrid img {
+    margin-bottom: 18px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.hybrid h5 {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.drive-in,
+.hybrid,
+.mobile {
+    transition: 0.3s ease-in;
+    background: rgba(202, 202, 202, 0.17);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 10px;
+    height: 309px;
+    width: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+
+    text-shadow: 0 0 3px #000;
+    color: transparent;
+}
+
+.service-header {
+    color: #2B356A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.mobile-h {
+    color: #2B356A;
+    font-size: 25px !important;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.drive-in {
+    width: 201px;
+}
+
+.hybrid {
+    width: 201px;
+}
+
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.services-content p {
+    font-size: 14px;
+    font-weight: 700;
+    width: 487px;
+    text-align: center;
+    color: #16222C;
+}
+
+.services-img-cointainer {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.choose-p {
+    font-size: 14px;
+    font-weight: 500;
+    width: 133px;
+}
+
+
+.active-hover:hover {
+    background-color: #27ADE3;
+    cursor: pointer;
+    text-shadow: 0 0 0px #000;
+    color: #fff !important;
+}
+
+.active-hover:hover>.service-header {
+    color: #fff;
+}
+
+.active-hover:hover .blur-img {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+
+/* ======= SERVICES MOBILE STYLES */
+
+@media(max-width:650px) {
+    .service-mobile-container {
+        padding: 40px 30px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .service-mobile-top h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        width: 229px;
+        margin-bottom: 30px;
+    }
+
+    .service-mobile-top h4 span {
+        color: #27ADE3;
+    }
+
+    .service-mobile-top button {
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        margin-top: 20px;
+        width: 150px;
+        padding: 10px 20px;
+        background: #16222C;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .service-mobile-top p {
+        font-size: 14px;
+        width: 287px;
+        line-height: 25px;
+    }
+
+    .mobile-phone {
+        background: rgba(202, 202, 202, 0.17);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        padding: 10px;
+        height: 350px;
+        width: 230px !important;
+        margin-left: 70px !important;
+        margin-bottom: 30px;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .mobile-service-content {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 30px;
+
+    }
+
+    .content-pagargraph-mobile-service {
+        color: #000;
+        width: 100%;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .cars-mobile-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px !important;
+        width: 150px;
+        margin: 0 auto;
+    }
+}

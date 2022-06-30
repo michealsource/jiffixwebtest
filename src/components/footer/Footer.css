@@ -1,0 +1,122 @@
+.footer-background{
+    background: #16222C;
+    height: 350px;
+    z-index: 10000;
+}
+
+.address-text{
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+}
+
+.first-footer-section{
+    color: #fff !important;
+}
+
+.footer-cointainer{
+    padding-top: 30px;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 110px;
+    /* padding: 20px 110px; */
+}
+
+.top-footer p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.social-address-container{
+    padding-left: 110px;
+    width: 350px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.divider{
+    background-color: #436683;
+    height: 0.5px;
+    width: 85%;
+    margin: 30px auto;
+}
+
+.contact-container p{
+    width: 300px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin: 0 auto;
+}
+
+.terms-condition-container{
+    color: #818181;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.terms-condition-container span{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.policy-text{
+    color: #818181;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.contact-icons-container{
+    font-size: 12px;
+}
+
+.terms-conditions-privacy{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:650px){
+    .top-footer{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .footer-background{
+        background: #16222C;
+        height: 470px;
+        z-index: 10000;
+    }
+
+    .social-address-container{
+        padding-left: 0px;
+        width: 200px;
+        margin-bottom: 30px;
+    }
+
+    .address-text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #F5F5F5;
+    }
+
+    .terms-condition-container{
+        width: 90%;
+    }
+
+
+}

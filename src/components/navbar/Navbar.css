@@ -1,0 +1,166 @@
+.navbar.colorChange{
+    background: #f3f5f4;
+}
+.navbar{
+    /*height: 50px;
+    */display: flex;
+    padding: 13px 20px;
+    /*height: 80px;
+    */position: sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(209, 211, 212, 0.24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    width: 87.63px;
+    height: 30px;
+}
+
+.login-btn{
+    background-color: #16222C;
+    color: #F2F2F2;
+    font-size: 14px;
+    width: 183px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.sign-in-btn{
+    width: 183px;
+    height: 40px;
+}
+
+.sign-in-btn:hover{
+    background-color: #000;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    padding-right: 25px;
+    color: #000000;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.mobile-nav-menu a{
+    color: #000000;
+    font-size: 14px;
+    font-style: normal;
+    display: block;
+    padding: 8px 0px;
+}
+
+.humbuger{
+    display: none;
+}
+
+.login-btn-mobile{
+    display: none;
+}
+
+.login-btn-plan-mobile{
+    display: none;
+}
+
+.navbar-active{
+    display: block;
+}
+
+/* ========NAVBAR RESPONSIVE STYLINGS=========*/
+
+@media(max-width:650px){
+
+    .login-btn-mobile{
+        background-color: #16222C;
+        color: #F2F2F2;
+        font-size: 14px;
+        width: 106px;
+        height: 40px;
+        border-radius: 20px;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        display: block;
+    }
+    
+    .login-btn-plan-mobile{
+        background-color: #16222C;
+        color: #F2F2F2;
+        font-size: 14px;
+        width: 235px;
+        height: 40px;
+        border-radius: 20px;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .mobile-nav-menu{
+        flex-direction: column;
+        align-items: start;
+        font-weight: 700;
+        margin-top: 30px;
+        display: block;
+    }
+    
+    .humbuger{
+        display: block;
+    }
+    
+    
+    .hide-mobile{
+        display: none;
+    }
+    
+    .navbar{
+        padding: 20px 25px;
+    }
+    
+    .links a{
+        color: #16222C;
+        padding-top: 15px;
+    }
+    .login-btn-plan-mobile{
+        display: block;
+        margin: 20px 0px
+    }
+
+    .logo-container img{
+        width: 85px;
+        height: 30px;
+    }
+    
+}
+

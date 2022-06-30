@@ -1,0 +1,183 @@
+
+.desktop-slide-carousel{
+    overflow-x: hidden !important;
+}
+
+.slide-img{
+    height: 100%;
+    } 
+
+.carousel-content{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.companies-logos{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.carousel-content h3{
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.carousel-content p{
+    width: 500px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.check-vehicle-health-btn{
+    background-color: #FBA91A;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    width: 225px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.count-container{
+    color: #c4c4c4;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* .count-container img{
+    margin-left: -2;
+} */
+
+.count-container span{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.job-count{
+    font-weight: 700 !important;
+}
+
+.carousel-control-prev{
+    left: -70px !important;
+}
+
+.carousel-control-next{
+    right: -70px !important;
+}
+
+.companies-container{
+    margin-top: 180px;
+}
+
+.companies-container h3{
+    color: #fff;
+    font-size: 12px !important;
+    font-weight: 500;
+    /* padding: 20px 10px; */
+}
+
+.carousel-content img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.second-img{
+    filter: grayscale(0%) !important;
+    -webkit-filter: grayscale(0%) !important;
+}
+
+
+
+@media(max-width:650px){
+    .carousel-mobile-container{
+        overflow-x: hidden !important;
+    }
+    .top-carosel-mobile-container{
+        background-color: #16222C;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 400px;
+    }
+    .mobile-carousel-title{
+        font-size: 40px;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+
+    .mobile-carousel-content{
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 600;
+        padding: 15px 0px;
+        height: 200px;
+    }
+
+    .mobile-carousel-btn{
+        border: none;
+        outline: none;
+        background-color: #FBA91A;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        padding: 10px 20px;
+        margin-top: -60px;
+        margin-bottom: 20px;
+}
+.mobile-count-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    margin: 25px 0px;
+}
+.mobile-count-number{
+    font-size: 20px;
+    font-weight: 700;
+}
+.mobile-job-completed{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(194, 213, 220, 0.5);;
+}
+
+.companies-logos-mobile{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+}

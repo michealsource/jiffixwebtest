@@ -1,0 +1,120 @@
+.testimonial-wrapper {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.testimonial-content {
+    height: 100%;
+    margin-top: 80px;
+}
+
+.testmonial-title {
+    font-size: 40px;
+    width: 400px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+
+.testmonial-title span {
+    color: #FBA91A;
+}
+
+.testmonial-wrapper {
+    width: 400px;
+}
+
+.schedule-service-btn {
+    background-color: #FBA91A;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 12px;
+    width: 225px;
+    height: 40px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+/* ======MOBILE STYLES===== */
+
+@media(max-width:650px) {
+
+    .top-testmonial-img img{
+        width: 100% !important;
+    }
+    .carousel-testimonial-mobile {
+        padding: 30px;
+        background: #16222C;
+        color: #fff;
+        width: 100% !important;
+    }
+
+
+    .mobile-testimonial-carousel-card h4 {
+        font-size: 30px;
+        width: 190px;
+        font-weight: 700;
+        line-height: 40px;
+        padding-top: 25px;
+    }
+
+    .mobile-testimonial-carousel-card h4 span {
+        color: #FBA91A;
+    }
+
+    .mobile-testimonial-carousel-card p {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 25px;
+        width: 275px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .mobile-testimonial-carousel-card span {
+        color: #9D9D9D94;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+  
+
+    .slick-next, .slick-prev{
+        display: none !important;
+    }
+
+    .slick-dots li button:before{
+           font-size: 15px !important;
+           color: #27ADE3 !important;
+           margin-bottom: 20px !important;
+    }
+
+    
+
+    .schedule-btn-mobile{
+        outline: none;
+        border: none;
+        background-color: #FBA91A;
+        color: #fff;
+        margin: 25px 0px;
+        margin-top: 40px !important;
+        width: 200px;
+        border-radius: 20px;
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 600;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+}
+}

@@ -1,0 +1,193 @@
+
+.modal-header{
+    color: #fff;
+}
+
+.Modal-logo{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    width: 60px;
+    height: 20px;
+}
+
+.close-img{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    height: 18px;
+    width: 10px;
+}
+
+.modal-content {
+    position: relative;
+    top: 80px;
+    display: flex;
+    margin-left: 125px;
+    flex-direction: column;
+    width: 850px !important;
+    pointer-events: auto;
+    background-clip: padding-box;
+    border-radius: 50px;
+    outline: 0;
+    padding: 20px !important;
+    background-color: #1B222A;
+    right: 350px !important;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.book{
+    background-color: #1B222A;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+}
+
+.top-modal{
+    color: #fff !important;
+    padding: 20px;
+}
+
+.top-modal h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.top-modal p{
+    font-size: 12px;
+    font-weight: 300;
+    width: 300px;
+    color: #F2F2F2;
+    margin-bottom: -20px !important;
+}
+
+.top-modal span{
+    color: #fff;
+    font-weight: 600;
+}
+
+.booking-field-form{
+    margin-top: -50px;
+    width: 500px;
+    height: 270px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.form-car-container{
+    display: flex;
+}
+
+.form-car-container img{
+    width: 320px;
+    height: 220px;
+    display: block;
+    margin-left: -20px;
+}
+
+.partners-icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.input-outline{
+    height: 40px !important;
+}
+
+@media(max-width:650px){
+    .modal-phone{
+        width: 240px !important;
+        padding: 10px !important;
+    }
+
+    .form-car-container{
+        position: absolute;
+    }
+
+    .form-car-container{
+        flex-direction: column;
+    }
+
+    .partners-icons{
+        display: none;
+    }
+
+    .booking-field-form{
+        width: 300px !important;
+        height: 410px;
+        margin-left: 18px;
+        margin-top: 10px;
+        position: absolute;
+        bottom: 40px;
+        /* background-color: green; */
+        z-index: 1000000;
+        /* background-color: red; */
+    }
+
+    .top-modal p{
+        font-size: 11px !important;
+        width: 243px !important;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .modal-content {
+        height: 450px !important;
+        width: 380px !important;
+        right: 135px !important;
+        top: 20px !important;
+        /* background-color: red !important; */
+        position: relative;
+        /* margin-left: 30px; */
+    }
+
+    .top-modal h5{
+        color: #fff !important;
+        font-size: 30px !important;
+        text-align: center;
+        /* font-size: 300px; */
+    }
+
+    .form-car-container img{
+        width: 376px !important;
+        height: 275px !important;
+        margin-top: 300px;
+        /* position: absolute; */
+        bottom: 0px;
+    }
+
+    .Modal-logo{
+        display: none;
+    }
+
+    .book{
+        margin-top: 3px !important;
+        width: 250px;
+        position: absolute;
+        left: 20px;
+        bottom: 50px;
+        right: 0;
+        
+    }
+
+    .have-account p{
+        font-size: 12px !important;
+        position: absolute;
+        bottom: 5px;
+    }
+
+}
