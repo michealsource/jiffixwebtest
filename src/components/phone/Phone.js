@@ -26,8 +26,9 @@ const Phone = () => {
                                 </div>
 
                                 <div className="text">
-                                    <span className='top-phone-head'>available on the</span>
-                                    <span className='phone-platform'>App Store</span>
+                                    
+                                    <span className='top-phone-head'>App Store</span>
+                                    <span className='phone-platform'>Coming soon</span>
                                 </div>
                                 
                             </button>
@@ -39,8 +40,9 @@ const Phone = () => {
                                 </div>
 
                                 <div className="text">
-                                    <span className='top-phone-head'>Get it on</span>
-                                    <span className='phone-platform'>Google Play</span>
+                                   
+                                    <span className='top-phone-head'>Google Play</span>
+                                    <span className='phone-platform '>Coming soon</span>
                                 </div>
                                 
                             </button>

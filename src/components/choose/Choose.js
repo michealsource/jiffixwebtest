@@ -33,7 +33,16 @@ const Choose = () => {
                     <div className={activeTab==="login"? "tab active-tab":"tab"} onClick={()=>setactiveTab("login")}>Get Instant Quote</div>
                  </div>
 
-                 {activeTab ==="signup" ? <p className='choose-text'>Our inspection program is designed to eliminate the hassle or worry’s associated with arising faults or vehicle breakdown. The plans provide coverage for a period of 12-months with access to on-demand inspection & diagnosis.</p>: activeTab ==="login"?<p className='choose-text'>Coming Soon...</p> :activeTab ==="soon"? <p className='choose-text'>Coming Soon...</p>:null}
+                 {activeTab ==="signup" ?
+                    <div className='choose-text-login'>
+                    <p >This program is designed to take away your worries about identifying issues with your car (whenever they arise). You will be entitled to a number of inspections for a period of <span className='bold-text-tab-desktop'>12-months,</span>anywhere in Nigeria. This comes with a <span className='bold-text-tab-desktop'>complimentary road-side rescue. </span></p>
+                    <p className='italic-text-tab'>There’s been nothing better, since agege bread!</p> 
+                  </div>
+                  : activeTab ==="login"? <div className='choose-text-login'><p className='choose-text'>Need a quick service, repair or part</p></div>:
+                  activeTab ==="soon"?<div className='choose-text-login'>
+                    <p >Over 80% of our vehicle’s health over time, and its logevity is determined by our maintenance habits. This program takes over and <span className='bold-text-tab-desktop'>automates your vehicle maintenance</span> activity, and ensures your <span className='bold-text-tab-desktop'>never miss a service</span>  with our multi-modal service delivery anywhere in Nigeria. </p>
+                    <p className='italic-text-tab'>This is the best thing to happen to your vehicle!</p> 
+                  </div> :null}
 
                 </Col>
                 <Col className="d-flex justify-content-center align-items-center col-md-6" style={{height:"100%", paddingTop:"50px"}}>

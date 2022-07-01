@@ -1,6 +1,6 @@
 import React from 'react'
 import {Carousel} from 'react-bootstrap'
-import homeimaage from '../../assets/images/homeimaage.png'
+import homeimaage from '../../assets/images/owner.png'
 import tanker from '../../assets/images/tanker.png'
 import car from '../../assets/images/car.png'
 import bolt1 from '../../assets/images/bolt1.png'

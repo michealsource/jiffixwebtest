@@ -70,7 +70,7 @@ const Privacy = () => {
                         <li>Update or remove your credit card information.</li>
                         <li>State any concerns you have about the use of your data or any of our services.</li>
                     </ul>
-                    <p>To do so, go to the appropriate page on the platform or send an email to hello@jiffixtech.com with your request in the subject line. </p>
+                    <p>To do so, go to the appropriate page on the platform or send an email to <a href="">hello@jiffixtech.com</a>  with your request in the subject line. </p>
                 </div>
                 
                 <div className="first">

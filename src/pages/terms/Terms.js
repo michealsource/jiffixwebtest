@@ -21,7 +21,7 @@ const Terms = () => {
             <p>By accessing and using our services, you attest that you are not prohibited by any law from using our services and you agree to be bound by these terms. If you disagree with any part of the terms, then do not use our services.</p>
 
             <div className='first'>
-                 <h4>1. DEFINITIONS</h4>
+                 <h4>1. Definations</h4>
                  <p>in these terms and conditions, except where the context states otherwise, the following shall mean:</p>
                  <p> <span className='sub'>Account:</span>  is a unique personified account registered in the name of a User which contains the User’s transactions and operations within our services.</p>
 
@@ -205,7 +205,7 @@ const Terms = () => {
                     <h4>13. Termination/Cancelation </h4>
                     <p>We may instantly cancel or stop our Service to you, without notice or obligation, for any reason, including but not limited to if you violate these Terms.</p>
 
-                    <p>Your right to use the Platform and our Service will be terminated immediately upon termination. You can just send an email to hello@Jiffixtech.com if you want to end your transaction.</p>
+                    <p>Your right to use the Platform and our Service will be terminated immediately upon termination. You can just send an email to <a href="">hello@Jiffixtech.com</a> if you want to end your transaction.</p>
                 </div>
 
                 <div className="first">
@@ -279,7 +279,7 @@ const Terms = () => {
 
                 <div className="first">
                     <h4>20. Feedback</h4>
-                    <p>We appreciate and welcome your feedback, remarks, and suggestions on how to improve Jiffix's Platform or Services. You can send us your feedback via email at hello@jiffixtech.com Any feedback you provide to us will be treated as non-confidential and non-proprietary. By providing us with feedback, you grant us a non-exclusive, global, royalty-free, irreversible, sub-licensable, permanent license to use and publish those ideas and materials for any purpose without compensation to you. </p>
+                    <p>We appreciate and welcome your feedback, remarks, and suggestions on how to improve Jiffix's Platform or Services. You can send us your feedback via email at <a href="">hello@Jiffixtech.com</a> Any feedback you provide to us will be treated as non-confidential and non-proprietary. By providing us with feedback, you grant us a non-exclusive, global, royalty-free, irreversible, sub-licensable, permanent license to use and publish those ideas and materials for any purpose without compensation to you. </p>
                 </div>
 
                 <div className="first">

@@ -11,10 +11,17 @@
     top: 0;
     right: 0;
     z-index: 100;
-    background: rgba(209, 211, 212, 0.24);
+    background: #F5F5F5;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.nav{
+    position: sticky;
+    width: 100%;
+     top: 0;
 }
 
 .logo-container{
@@ -62,10 +69,11 @@
 
 .mobile-nav-menu a{
     color: #000000;
-    font-size: 14px;
+    font-size: 20px;
     font-style: normal;
+    font-weight: 600;
     display: block;
-    padding: 8px 0px;
+    padding: 20px 0px;
 }
 
 .humbuger{
@@ -84,6 +92,39 @@
     display: block;
 }
 
+.divider-nav-mobile{
+    display: none;
+}
+
+
+/* TESTING THE ON SCROLL HIDE */
+.activenav{
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    transition: 0.3s linear;
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    z-index: 40;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+    /* padding: 0 7%; */
+}
+.hiddennav{
+    height: 4rem;
+    width: 100%;
+    z-index: 40;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
+    position: sticky;
+    top: -200px;
+    transition: 0.3s linear;
+
+}
+
 /* ========NAVBAR RESPONSIVE STYLINGS=========*/
 
 @media(max-width:650px){
@@ -93,26 +134,37 @@
         color: #F2F2F2;
         font-size: 14px;
         width: 106px;
-        height: 40px;
+        height: 35px;
         border-radius: 20px;
         font-weight: 600;
         outline: none;
         border: none;
-        padding: 10px 20px;
+        padding: 5px 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         display: block;
     }
+
+    .divider-nav-mobile{
+        background-color: #D9D9D9;
+        height: 1px;
+        display: block;
+        width: 350px;
+    }
     
     .login-btn-plan-mobile{
         background-color: #16222C;
         color: #F2F2F2;
         font-size: 14px;
-        width: 235px;
+        width: 160px;
         height: 40px;
         border-radius: 20px;
+        margin-bottom: 400px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 35px !important;
         font-weight: 600;
         outline: none;
         border: none;
@@ -121,6 +173,7 @@
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
+        
     }
 
     .links{
@@ -145,22 +198,28 @@
     }
     
     .navbar{
-        padding: 20px 25px;
+        padding: 15px 25px;
+        top: 0 !important;
+        /* height: 70px; */
+        /* top: -8px !important; */
     }
     
     .links a{
         color: #16222C;
-        padding-top: 15px;
+        padding-top: 20px;
     }
+
+  
     .login-btn-plan-mobile{
         display: block;
         margin: 20px 0px
     }
 
     .logo-container img{
-        width: 85px;
-        height: 30px;
+        width: 71px;
+        height: 25px;
     }
-    
+
+  
 }
 

@@ -26,7 +26,7 @@ const MobileSteps = () => {
             <div className="step-mobile-top">
                 <h4>Three steps  <span>to fix with jiffix</span></h4>
                 <p>Find out how you can get access to quality vehicle inspections, affordable repairs, efficient maintenance and convenient modes of service anywhere in Nigeria</p>
-                <button>EXPLORE OUR PLANS</button>
+                <button>START NOW</button>
             </div>
 
             <div className="step-mobile-carousel-bottom">
@@ -37,8 +37,8 @@ const MobileSteps = () => {
                                 className="step-img"
                                 src={firstSlide}
                                 alt="First slide"
-                                height={160}
-                                width={128}
+                                height={169}
+                                width={207}
                             />
                             <span className='step-carousel-content'>Subscribe to a plan OR Select a service</span>
                             
@@ -70,7 +70,7 @@ const MobileSteps = () => {
                     </Slider>
                 </div>
             </div>
-            <div className='d-flex justify-content-between align-items-center py-3'>
+            <div className='d-flex justify-content-between align-items-center pt-4'>
                  <div>   <img src={bmw} alt="" width={13.44} height={13.59}/></div>   
                  <div>  <img src={toyota} alt=""  width={20.85} height={13.59}/></div>
                  <div>  <img src={lexus} alt="" width={73.45} height={13.59}/></div>

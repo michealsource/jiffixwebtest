@@ -10,7 +10,7 @@ const ServicesMobile = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        autoplay: true,
+        autoplay: false,
         slidesToShow: 1,
         slidesToScroll: 1
     };
@@ -19,12 +19,12 @@ const ServicesMobile = () => {
             <div className="service-mobile-top">
                 <h4>Choose <span>Service Mode</span></h4>
                 <p>Enjoy the 3 modes of service available to Jiffix  car owners and fleet operators anywhere in Nigeria to transform your vehicle management experience and save cost.</p>
-                <button>START NOW</button>
+                <button>EXPLORE OUR SERVICES</button>
             </div>
             <div className="service-mobile-bottom">
                 <Slider {...settings}>
-                    <div className="mobile-phone">
-                        <h5 className='service-header mobile-h'>MOBILE</h5>
+                    <div className="mobile-phone active-mobile">
+                        <h5 className='service-header mobile-h active-heade'>MOBILE</h5>
                         <p className='mobile-service-content'>Our certified mobile experts come to you at home, work or by the roadside for a rescue.</p>
                         <i class="fa-solid fa-route tunnel"></i>
                     </div>

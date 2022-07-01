@@ -20,17 +20,18 @@ const TestimonialMobile = () => {
         <div className="carousel-testimonial-mobile">
         <Slider {...settings}>
             <div className='mobile-testimonial-carousel-card'>
-                <h4>Why our customers <span>love Jiffix</span></h4>
+                <h4>Why our customers <span>love Jiffix“</span></h4>
+                <p></p>
                 <p>Join Jiffix car owner’s and fleet managers and begin your journey to quality, convenience, and affordable vehicle maintenance today.</p>
                 <span>Prince Ezike</span>
             </div>
             <div className='mobile-testimonial-carousel-card'>
-                <h4>Why our customers <span>love Jiffix</span></h4>
+                <h4>Why our customers <span>love Jiffix“</span></h4>
                 <p>Join Jiffix car owner’s and fleet managers and begin your journey to quality, convenience, and affordable vehicle maintenance today.</p>
                 <span>Prince Ezike</span>
             </div>
             <div className='mobile-testimonial-carousel-card'>
-                <h4>Why our customers <span>love Jiffix</span></h4>
+                <h4>Why our customers <span>love Jiffix“</span></h4>
                 <p>Join Jiffix car owner’s and fleet managers and begin your journey to quality, convenience, and affordable vehicle maintenance today.</p>
                 <span>Prince Ezike</span>
             </div>
