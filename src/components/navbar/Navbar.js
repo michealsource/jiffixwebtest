@@ -8,7 +8,7 @@ import { ScrollHook } from '../../hook/ScrollHook';
 
 const Navbar = () => {
 
-  const { y, x, scrollDirection } = ScrollHook();  
+  const { scrollDirection } = ScrollHook();  
 //HIDE NAVIGATION BAR
 const [show, setShow] = useState(true);
 const [menu, setMenu] = useState(false);

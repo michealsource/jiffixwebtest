@@ -14,7 +14,7 @@ import white from '../../assets/images/book-images/VWHITE.png'
 import benz from '../../assets/images/book-images/benz.png'
 import rangerover from '../../assets/images/book-images/rangerover.png'
 import close from '../../assets/images/book-images/close.png';
-import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaLongArrowAltRight,FaTimes } from "react-icons/fa";
 
 import './BookingModal.css';
 const BookingModal = ({ show, handleClose }) => {
@@ -30,8 +30,10 @@ const BookingModal = ({ show, handleClose }) => {
                 <img src={close} alt="" className='close-img' onClick={handleClose} />
 
                 <div className="form-car-container">
+                <FaTimes className='mobile-close'  style={{color:"#fff"}} size={18} onClick={handleClose}/>
                     <img src={bookingImage} alt="" />
                     <div className="booking-field-form">
+                        
                         <Row>
                             <Col className='col-md-6 mb-2'>
                                 <Form.Control type="text" placeholder="First Name" className="input-outline modal-phone" />
@@ -69,7 +71,7 @@ const BookingModal = ({ show, handleClose }) => {
                             </Col>
 
                             <Col className='col-md-6'>
-                            <button className="form-submit-next-btn book">Proceed <FaLongArrowAltRight/></button>
+                            <button  className="form-submit-next-btn book">Proceed <FaLongArrowAltRight/></button>
                             </Col>
                         </Row>
                     </div>

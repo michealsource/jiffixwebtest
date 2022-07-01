@@ -260,8 +260,8 @@
         border-radius: 20px;
         padding: 10px;
         height: 350px;
-        width: 230px !important;
-        margin-left: 70px !important;
+        width: 250px !important;
+        /* margin-left: 70px !important; */
         margin-bottom: 30px;
         display: flex !important;
         flex-direction: column !important;
@@ -294,4 +294,8 @@
         width: 150px;
         margin: 0 auto;
     }
+
+    /* .slick-list{
+        padding:30px 30% 0 0 !important;
+    } */
 }

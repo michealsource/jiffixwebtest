@@ -8,13 +8,15 @@ import tractor from '../../assets/images/tractor.png'
 const ServicesMobile = () => {
     const settings = {
         dots: true,
-        infinite: true,
+        infinite: false,
         speed: 500,
         autoplay: false,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 1.2,
+        slidesToScroll: 1,
+        
     };
     return (
+        <>
         <div className='service-mobile-container'>
             <div className="service-mobile-top">
                 <h4>Choose <span>Service Mode</span></h4>
@@ -52,6 +54,8 @@ const ServicesMobile = () => {
                 </div>
             </div>
         </div>
+        
+        </>
     )
 }
 

@@ -107,6 +107,12 @@
     height: 40px !important;
 }
 
+
+.mobile-close{
+    display: none;
+}
+
+
 @media(max-width:650px){
     .modal-phone{
         width: 240px !important;
@@ -129,9 +135,9 @@
         width: 300px !important;
         height: 410px;
         margin-left: 18px;
-        margin-top: 10px;
+        margin-top: 20px;
         position: absolute;
-        bottom: 40px;
+        bottom: 20px;
         /* background-color: green; */
         z-index: 1000000;
         /* background-color: red; */
@@ -190,4 +196,14 @@
         bottom: 5px;
     }
 
+    .mobile-close{
+        display: block;
+        position: absolute;
+        right: 20px;
+
+    }
+    .close-img{
+        display: none;
+    }
+    
 }

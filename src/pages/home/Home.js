@@ -18,6 +18,9 @@ const Home = () => {
 
   const handleShow = () => setShow(true);
   const handleClose = () => setShow(false);
+
+
+  console.log(show,'closeeeee')
   useEffect(() => {
     setTimeout(() => setShow(true), 7000)
   }, [])
