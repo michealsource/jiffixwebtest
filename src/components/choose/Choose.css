@@ -227,11 +227,13 @@
 }
 
 @media(max-width:650px) {
+
     .choose-mobile-container{
         background-color: #EFF0F0;
     }
     .mobile-carousel-choose {
         background-color: #16222C;
+        overflow-x: hidden !important;
     }
 
     .choose-carousel-img-first {

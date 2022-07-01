@@ -50,7 +50,6 @@ const Home = () => {
         <TestimonialMobile />
       </div>
 
-
       <div className='desktop-carousel'>
         <Services />
       </div>
@@ -58,8 +57,6 @@ const Home = () => {
       <div className="mobile-carousel">
         <ServicesMobile />
       </div>
-
-
 
       <div className='desktop-carousel'>
         <Choose />
@@ -71,8 +68,7 @@ const Home = () => {
 
       <Goal/>
 
-      <Phone/>
-
+      <Phone/> 
       <BookingModal handleShow={handleShow} show={show} handleClose={handleClose}/>
     </div>
   )
