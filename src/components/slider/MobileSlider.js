@@ -17,7 +17,7 @@ const MobileSlider = () => {
         <div className="top-carosel-mobile-container">
           <h4 className='mobile-carousel-title'>Just Jiffix it.</h4>
           <p className='mobile-carousel-content'>Join Jiffix car owner’s and fleet operators and begin your journey to quality, convenient, and affordable vehicle  maintenance today.</p>
-          <button className='mobile-carousel-btn'>CHECK OUT OUR PRICE!</button>
+          <button className='mobile-carousel-btn'>CHECK OUT OUR PRICING!</button>
 
           <div className="mobile-count-container">
             <img src={car} alt="car-img" height={35} width={35.87} />
@@ -49,7 +49,7 @@ const MobileSlider = () => {
         <div className="top-carosel-mobile-container">
           <h4 className='mobile-carousel-title'>Just Jiffix it.</h4>
           <p className='mobile-carousel-content'>Join Jiffix tractor owner’s and fleet operators and begin your journey to higher yields through quality, convenient, and affordable  maintenance program.</p>
-          <button className='mobile-carousel-btn'>CHECK OUT OUR PRICE!</button>
+          <button className='mobile-carousel-btn'>COMING SOON...</button>
 
           <div className="mobile-count-container">
             <img src={car} alt="car-img" />
