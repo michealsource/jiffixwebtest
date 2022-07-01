@@ -1,5 +1,5 @@
 import React from 'react'
-import smile from '../../assets/images/smile.png'
+import smile from '../../assets/images/why.png'
 import Slider from "react-slick";
 
 const TestimonialMobile = () => {

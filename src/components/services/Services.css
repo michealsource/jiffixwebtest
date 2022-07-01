@@ -261,13 +261,13 @@
         padding: 10px;
         height: 350px;
         width: 250px !important;
-        /* margin-left: 70px !important; */
-        margin-bottom: 30px;
         display: flex !important;
         flex-direction: column !important;
         align-items: center !important;
         justify-content: center;
         margin-top: 50px;
+        margin-bottom: 30px;
+        margin-right: 30px !important;
     }
 
     .mobile-service-content {
