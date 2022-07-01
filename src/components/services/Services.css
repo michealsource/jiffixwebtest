@@ -298,15 +298,13 @@
         margin: 0 auto;
     }
 
-    /* .slick-slide>div {
-        padding-right: 30px;
-    } */
+    .slick-slide>div {
+        padding-right: 30px !important;
+    }
 
     .service-mobile-bottom{
-        width: 900px !important;
+        width: 320px !important;
     }
-    .slick-slider .slick-slide {
-        padding-right: 10px !important;
-      }
+ 
   
 }
