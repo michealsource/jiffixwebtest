@@ -71,7 +71,7 @@ const BookingModal = ({ show, handleClose }) => {
                             </Col>
 
                             <Col className='col-md-6'>
-                            <button  className="form-submit-next-btn book">Proceed <FaLongArrowAltRight/></button>
+                            <button  className="form-submit-next-btn book phone-book">Proceed <FaLongArrowAltRight/></button>
                             </Col>
                         </Row>
                     </div>

@@ -134,7 +134,7 @@
     .booking-field-form{
         width: 300px !important;
         height: 410px;
-        margin-left: 18px;
+        margin-left: 11px;
         margin-top: 20px;
         position: absolute;
         bottom: 20px;
@@ -199,11 +199,17 @@
     .mobile-close{
         display: block;
         position: absolute;
-        right: 20px;
+        right: 30px;
+        top: 2px;
 
     }
     .close-img{
         display: none;
+    }
+
+    .phone-book{
+        width: 240px !important;
+        margin-left: 10px;
     }
     
 }
