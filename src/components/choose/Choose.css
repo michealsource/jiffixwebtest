@@ -234,6 +234,7 @@
     .mobile-carousel-choose {
         background-color: #16222C;
         overflow-x: hidden !important;
+        /* padding-left: 30px; */
     }
 
     .choose-carousel-img-first {
@@ -267,8 +268,8 @@
         width: 300px;
         font-size: 30px;
         line-height: 40px;
-        padding: 30px;
-        padding-top: 50px;
+        padding-left: 30px;
+        padding-top: 45px;
     }
 
     .mobile-carousel-choose h4 span {
@@ -310,6 +311,8 @@
         line-height: 40px;
         width: 250px;
         padding: 30px;
+        padding-top: 45px !important;
+        padding-bottom: 10px !important;
     }
 
     .start-from-here-mobile span{

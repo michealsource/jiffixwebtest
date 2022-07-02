@@ -49,8 +49,8 @@ const MobileSteps = () => {
                                 className="step-img"
                                 src={secondSlide}
                                 alt="Second slide"
-                                height={136}
-                                width={125}
+                                height={125}
+                                width={136}
                             />
                             <span className='step-carousel-content'>Schedule an Appointment</span>
                         </div>

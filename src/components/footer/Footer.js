@@ -54,7 +54,7 @@ const Footer = () => {
         <span>© 2022 All Rights Reserved.</span>
         <div className='terms-conditions-privacy'>
           <Link to="/terms" className='policy-text'>Terms & Conditions</Link>
-          <Link to="/privacy-policy" style={{ paddingLeft: "25px" }} className='policy-text'>Privacy Policy</Link>
+          <Link to="/privacy-policy" style={{ paddingLeft: "25px" }} className='policy-text privacy-justify'>Privacy Policy</Link>
         </div>
       </div>
     </div>

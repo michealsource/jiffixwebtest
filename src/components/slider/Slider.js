@@ -14,8 +14,7 @@ const Slider = () => {
   return (
     <Carousel className='desktop-slide-carousel'>
     <Carousel.Item style={{position:'relative'}}>
-     
-
+    
       <img
         className="d-block w-100 slide-img"
         src={homeimaage}
@@ -57,10 +56,10 @@ const Slider = () => {
 
         <button className='check-vehicle-health-btn'>COMING SOON...</button>
 
-        <div className="count-container">
+        {/* <div className="count-container">
           <img src={car} alt="car-img" />
           <span> <span className='job-count'>2,690</span>  Quality Jobs Completed</span>
-        </div>
+        </div> */}
 
         <div className="companies-container">
           <h3>Great companies that trust us</h3>

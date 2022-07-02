@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import homeimaage from '../../assets/images/mobile-owner.png'
-import tanker from '../../assets/images/tanker.png'
+import tanker from '../../assets/images/mobile-tractor.png'
 import car from '../../assets/images/car.png'
 import bolt1 from '../../assets/images/bolt1.png'
 import payu from '../../assets/images/payu.png'
@@ -40,7 +40,9 @@ const MobileSlider = () => {
             className="d-block w-100"
             src={homeimaage}
             alt="First slide"
-            height="100%"
+            height={156}
+            width={360}
+            // height="100%"
           />
         </div>
 
@@ -51,13 +53,13 @@ const MobileSlider = () => {
           <p className='mobile-carousel-content'>Join Jiffix tractor owner’s and fleet operators and begin your journey to higher yields through quality, convenient, and affordable  maintenance program.</p>
           <button className='mobile-carousel-btn'>COMING SOON...</button>
 
-          <div className="mobile-count-container">
+          {/* <div className="mobile-count-container">
             <img src={car} alt="car-img" />
             <span className='mobile-count-number'>2,690</span>
           </div>
-          <span className='mobile-job-completed'>Quality Jobs Completed</span>
+          <span className='mobile-job-completed'>Quality Jobs Completed</span> */}
 
-          <div className="companies-logos-mobile">
+          <div className="companies-logos-mobile tractor-m">
             <img width={50} height={18} src={bolt1} alt="bolt-image" />
             <img width={18} height={18} src={payu} alt="bolt-image" />
             <img width={76} height={13} src={force} alt="bolt-image" />
@@ -72,6 +74,8 @@ const MobileSlider = () => {
             className="d-block w-100"
             src={tanker}
             alt="Second slide"
+            height={156}
+            width={360}
           />
         </div>
 

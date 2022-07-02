@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
      document.body.getBoundingClientRect()
    );
 	// the vertical direction
-   const [scrollY, setScrollY] = useState(bodyOffset.top);
+   const [scrollY, setScrollY] = useState(250);
 	// the horizontal direction
    const [scrollX, setScrollX] = useState(bodyOffset.left);
 	// scroll direction would be either up or down

@@ -1,7 +1,5 @@
-.navbar.colorChange{
-    background: #f3f5f4;
-}
-.navbar{
+
+nav{
     /*height: 50px;
     */display: flex;
     padding: 13px 20px;
@@ -97,33 +95,7 @@
 }
 
 
-/* TESTING THE ON SCROLL HIDE */
-.activenav{
-    height: 4rem;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    transition: 0.3s linear;
-    display: flex;
-    justify-content:stretch;
-    align-items: center;
-    background-color: #FFFFFF;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    z-index: 40;
-    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
-    /* padding: 0 7%; */
-}
-.hiddennav{
-    height: 4rem;
-    width: 100%;
-    z-index: 40;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, .08);
-    position: sticky;
-    top: -200px;
-    transition: 0.3s linear;
 
-}
 
 /* ========NAVBAR RESPONSIVE STYLINGS=========*/
 
@@ -197,11 +169,14 @@
         display: none;
     }
     
-    .navbar{
+    nav{
         padding: 15px 25px;
         top: 0 !important;
-        /* height: 70px; */
-        /* top: -8px !important; */
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
     }
     
     .links a{
@@ -220,6 +195,15 @@
         height: 25px;
     }
 
-  
+nav.nav-bar--hidden {
+   transform: translateY(-100%);
+   visibility: hidden;
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
+}
+
 }
 

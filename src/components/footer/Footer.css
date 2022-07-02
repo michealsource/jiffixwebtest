@@ -77,6 +77,11 @@
     color: #818181;
     font-size: 10px;
     font-weight: 400;
+    text-align: center;
+}
+
+.privacy-justify{
+    text-align: right !important;
 }
 
 .contact-icons-container{

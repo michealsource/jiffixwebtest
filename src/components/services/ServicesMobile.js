@@ -33,7 +33,7 @@ const ServicesMobile = () => {
 
                     <div className="mobile-phone">
                         <h5 className='service-header mobile-h'>DRIVE-IN</h5>
-                        <p className='mobile-service-content'>Drive into any of our partner garages and OEM dealerships across the country for a pre-scheduled service</p>
+                        <p className='mobile-service-content drive-p'>Drive into any of our partner garages and OEM dealerships across the country for a pre-scheduled service</p>
                         <i class="fa-solid fa-car-tunnel tunnel"></i>
                     </div>
 
