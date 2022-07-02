@@ -53,7 +53,7 @@ useEffect(() => {
             <img src={logo} alt="company logo" />
         </div> 
 
-        {menu?<FiX className='humbuger' size={20} onClick={()=>setMenu(!menu)}/>:<FaBars className='humbuger' size={20} onClick={()=>setMenu(!menu)}/>}
+        {menu?<FiX className='humbuger' size={25} onClick={()=>setMenu(!menu)}/>:<FaBars className='humbuger' size={25} onClick={()=>setMenu(!menu)}/>}
         <div className={menu?"mobile-nav-menu":"links"}>
             <Link to="/">Home</Link>
             <div className='divider-nav-mobile'></div>
