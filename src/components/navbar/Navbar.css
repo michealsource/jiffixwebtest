@@ -162,6 +162,9 @@ nav{
     
     .humbuger{
         display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
     }
     
     
@@ -193,6 +196,8 @@ nav{
     .logo-container img{
         width: 71px;
         height: 25px;
+        position: absolute;
+        top: 20px;
     }
 
 nav.nav-bar--hidden {

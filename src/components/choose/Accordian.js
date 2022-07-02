@@ -36,7 +36,7 @@ const Accordian = () => {
                 <Accordion.Item eventKey="1">
                     <Accordion.Header className='c'>Routine Maintenance Program</Accordion.Header>
                     <Accordion.Body>
-                        <p className='accordian-signup-content' style={{width:"380px"}}>Over 80% of our vehicle’s health over time, and its logevity is determined by our maintenance habits. This program takes over and<span>automates your vehicle maintenance </span>activity, and ensures your <span>never miss a service</span>  with our multi-modal service delivery anywhere in Nigeria. </p>
+                        <p className='accordian-signup-content' style={{width:"300px"}}>Over 80% of our vehicle’s health over time, and its logevity is determined by our maintenance habits. This program takes over and<span>automates your vehicle maintenance </span>activity, and ensures your <span>never miss a service</span>  with our multi-modal service delivery anywhere in Nigeria. </p>
 
                         <p className="bottom-text-accordian"> This is the best thing to happen to your vehicle!</p>
                         <h5 style={{width:"60px", paddingBottom: "10px", fontSize: "16px", fontWeight: "600" }}>Sign In</h5>
