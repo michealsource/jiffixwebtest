@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import './Services.css'
 import Slider from "react-slick";
 import motorcycle from '../../assets/images/motorcycle.png'
@@ -6,6 +6,15 @@ import car1 from '../../assets/images/car1.png'
 import shuttle from '../../assets/images/shuttle.png'
 import tractor from '../../assets/images/tractor.png'
 const ServicesMobile = () => {
+    const [currentSlide, setcurrentSlide] = useState(0)
+    const [reRender, setReRender] = useState(false)
+    const currentSlideRef = useRef(0)
+
+    useEffect(()=>{
+        setReRender((reRender == false) ? true:false)
+        console.log(currentSlideRef.current)
+    }, [currentSlideRef.current])
+    
     const settings = {
         dots: true,
         infinite: false,
@@ -13,7 +22,6 @@ const ServicesMobile = () => {
         autoplay: false,
         slidesToShow: 1.2,
         slidesToScroll: 1,
-        
     };
     return (
         <>
@@ -24,25 +32,36 @@ const ServicesMobile = () => {
                 <button>EXPLORE OUR SERVICES</button>
             </div>
             <div className="service-mobile-bottom">
-                <Slider {...settings}>
-                    <div className="mobile-phone active-mobile">
-                        <h5 className='service-header mobile-h active-heade'>MOBILE</h5>
+                <Slider beforeChange={(a,e)=>{
+                    const val = Math.ceil((e));
+                    console.log(val)
+                    setcurrentSlide(val)
+                    currentSlideRef.current = val;
+                }}
+                afterChange={e=> {
+                        const val = Math.ceil((e));
+                        setcurrentSlide(val)
+                        currentSlideRef.current = val;
+                    }} {...settings}>
+                    <div className={((currentSlideRef.current == 0) ? 'active-mobile':'')+" mobile-phone"}>
+                        <h5 className={((currentSlideRef.current == 0) ? 'active-heade':'')+' service-header mobile-h'}>MOBILE</h5>
                         <p className='mobile-service-content'>Our certified mobile experts come to you at home, work or by the roadside for a rescue.</p>
                         <i class="fa-solid fa-route tunnel"></i>
                     </div>
 
-                    <div className="mobile-phone">
-                        <h5 className='service-header mobile-h'>DRIVE-IN</h5>
+                    <div className={((currentSlideRef.current == 1) ? 'active-mobile':'')+" mobile-phone"}>
+                        <h5 className={((currentSlideRef.current == 1) ? 'active-heade':'')+' service-header mobile-h'}>DRIVE-IN</h5>
                         <p className='mobile-service-content drive-p'>Drive into any of our partner garages and OEM dealerships across the country for a pre-scheduled service</p>
                         <i class="fa-solid fa-car-tunnel tunnel"></i>
                     </div>
 
-                    <div className="mobile-phone">
-                        <h5 className='service-header mobile-h'>HYBRID</h5>
+                    <div className={((currentSlideRef.current == 2) ? 'active-mobile':'')+" mobile-phone"}>
+                        <h5 className={((currentSlideRef.current == 2) ? 'active-heade':'')+' service-header mobile-h'}>HYBRID</h5>
                         <p className='mobile-service-content'>Subscribers choose between a Jiffix mobile expert, or drive into one of our partner garages of your choice.</p>
                         <i class="fa-solid fa-compass-drafting tunnel"></i>
                     </div>
                 </Slider>
+                {/* <TestCarousel/> */}
 
                 <p className='content-pagargraph-mobile-service'>Conveniently fix your bikes, cars, buses, and heavy duty vehicles using any of the available service modes.</p>
 

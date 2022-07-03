@@ -256,7 +256,7 @@
     }
 
     .mobile-phone {
-        background: rgba(202, 202, 202, 0.17);
+        /* background: rgba(202, 202, 202, 0.17); */
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         padding: 15px;
