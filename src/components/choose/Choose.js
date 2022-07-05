@@ -36,7 +36,7 @@ const Choose = () => {
                     <p >This program is designed to take away your worries about identifying issues with your car (whenever they arise). You will be entitled to a number of inspections for a period of <span className='bold-text-tab-desktop'>12-months,</span>anywhere in Nigeria. This comes with a <span className='bold-text-tab-desktop'>complimentary road-side rescue. </span></p>
                     <p className='italic-text-tab'>There’s been nothing better, since agege bread!</p> 
                   </div>
-                  : activeTab ==="login"? <div className='choose-text-login'><p className='choose-text'>Need a quick service, repair or part</p></div>:
+                  : activeTab ==="login"? <div className='choose-text-login'><p className='choose-text'>Need a quick service, repair or maintenance? Our instant quote gives you real time pricing for the selected services available. There hasn't been anything better than knowing your cost upfront!</p></div>:
                   activeTab ==="soon"?<div className='choose-text-login'>
                     <p >Over 80% of our vehicle’s health over time, and its logevity is determined by our maintenance habits. This program takes over and <span className='bold-text-tab-desktop'>automates your vehicle maintenance</span> activity, and ensures your <span className='bold-text-tab-desktop'>never miss a service</span>  with our multi-modal service delivery anywhere in Nigeria. </p>
                     <p className='italic-text-tab'>This is the best thing to happen to your vehicle!</p> 

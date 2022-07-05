@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 // COMPANIES LOGOS IMPORT AS PNG
 import ford from '../../assets/images/book-images/FORD.png'
 import lexus from '../../assets/images/book-images/LEXUS.png'
-import bmw from '../../assets/images/book-images/BMW.png'
+import bmw from '../../assets/images/book-images/bmw-white.png'
 import honda from '../../assets/images/book-images/HONDA.png'
 import toyota from '../../assets/images/book-images/TOYOTA.png'
 import white from '../../assets/images/book-images/VWHITE.png'
@@ -80,7 +80,7 @@ const BookingModal = ({ show, handleClose }) => {
                 <div className="partners-icons">
                     <img className='ford-img' width={49.64} height={20} src={ford} alt="" />
                     <img className='lexus-img' width={106.57} height={18.24} src={lexus} alt="" />
-                    <img className='bme-img' width={36} height={30} src={bmw} alt="" />
+                    <img className='bme-img' width={25} height={25} src={bmw} alt="" />
                     <img className='honda-img' width={32.43} height={18.24} src={honda} alt="" />
                     <img className='toyota-img' width={29.12} height={20.68} src={toyota} alt="" />
                     <img className='white-img' width={29.79} height={18.24} src={white} alt="" />

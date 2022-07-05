@@ -22,7 +22,7 @@ const Slider = () => {
       />
       <div className="carousel-content">
         <h3>Just Jiffix It.</h3>
-        <p>Join Jiffix car owner’s and fleet operators and begin your journey to quality, convenience, and affordable vehicle  maintenance today.</p>
+        <p>Join Jiffix car owner’s and fleet operators and begin your journey to quality, convenient, and affordable vehicle  maintenance today.</p>
 
         <button className='check-vehicle-health-btn'>CHECK OUT OUR PRICING!</button>
 

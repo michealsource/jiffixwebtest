@@ -17,7 +17,7 @@ const Services = () => {
                     <Col className="services-cointainer d-flex my-auto flex-column col-md-5">
                         <h5>Choose <span>Service Mode</span> </h5>
                         <p>Explore the 3 modes of service available to Jiffix  car owners and fleet operators anywhere in Nigeria to transform your vehicle management experience and save cost.</p>
-                        <button className='start-now-btn'>START NOW</button>
+                        <button className='start-now-btn'>EXPLORE OUR PLANS</button>
                     </Col>
                     <Col className='d-flex my-auto'>
                         <Col className='col-md-4 mobile active-hover'>

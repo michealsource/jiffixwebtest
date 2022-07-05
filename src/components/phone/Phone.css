@@ -178,3 +178,11 @@
         color: #2F2E41;
     }
 }
+
+@media (width: 414px){
+    .right-container-phone{
+        display: block;
+        margin-right: 66px !important;
+    }
+}
+

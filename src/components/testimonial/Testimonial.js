@@ -10,7 +10,8 @@ const Testimonial = () => {
       <div className='testimonial-wrapper'>
        <Wrapper>
             <div className="testimonial-content">
-            <h5 className='testmonial-title'>Why our customers <span>love Jiffix “</span></h5>
+            <h5 className='testmonial-title'>Why our customers <span>love Jiffix</span></h5>
+            <h5 className='desktop-quote'>“</h5>
             <TestmonialCarousel/>
             <button className="schedule-service-btn">SCHEDULE A SERVICE</button>
             </div>

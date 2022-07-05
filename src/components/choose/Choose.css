@@ -400,12 +400,6 @@
     .accordian-sign-btn{
         width: 150px !important;
         margin-left: 155px !important;
-        /* margin-top: -0px !important; */
-        /* width: 100% !important;
-        height: 40px !important;
-        height: 40px !important;
-        width: 50%;
-        margin-left: 144px; */
     }
 
     .acord{
@@ -426,4 +420,17 @@
         height: 40px;
 }
 
+}
+
+
+@media(width:414px){
+    .custom-input{
+        width: 355px;
+    }
+    .accordian-btn{
+        margin-left: 170px;
+    }
+    .accordian-sign-btn{
+        margin-left: 210px !important;
+    }
 }
