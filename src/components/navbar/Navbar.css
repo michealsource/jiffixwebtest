@@ -72,6 +72,7 @@ nav{
     font-weight: 600;
     display: block;
     padding: 20px 0px;
+    /* margin-left: -17px !important; */
 }
 
 .humbuger{
@@ -125,6 +126,12 @@ nav{
         display: block;
         width: 300px;
     }
+
+    .mobile-nav-menu a:first-child{
+        padding-top: 45px;
+        /* margin-left: 300px; */
+    }
+    
     
     .login-btn-plan-mobile{
         background-color: #16222C;
@@ -145,7 +152,6 @@ nav{
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
-        
     }
 
     .links{
@@ -156,8 +162,11 @@ nav{
         flex-direction: column;
         align-items: start;
         font-weight: 700;
-        margin-top: 30px;
+        margin-top: 40px;
+        margin-right: 300px !important;
         display: block;
+        /* background-color: red !important;
+        padding-left: -50px !important; */
     }
     
     .humbuger{
@@ -173,7 +182,7 @@ nav{
     }
     
     nav{
-        padding: 15px 25px;
+        /* padding: 15px 25px; */
         top: 0 !important;
         transition: all 0.5s;
         -webkit-transition: all 0.5s;
@@ -184,7 +193,7 @@ nav{
     
     .links a{
         color: #16222C;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
   

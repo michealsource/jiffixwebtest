@@ -26,8 +26,8 @@ const ChooseMobileCarousel = () => {
                 <Slider {...settings}>
 
                     <div className='mobile-choose-content'>
-                    <img className='choose-carousel-img-first' src={firstCarouselChoose} alt=""  />
-                    <h5 style={{ fontSize: "20px", fontWeight: "700", color:"#fff",paddingTop:"25px",textAlign:"center" }}>360° Quality Control</h5>
+                    <img height={178} width={133} className='choose-carousel-img-first' src={firstCarouselChoose} alt=""  />
+                    <h5 style={{ fontSize: "20px", fontWeight: "700", color:"#fff",paddingTop:"40px",textAlign:"center" }}>360° Quality Control</h5>
                     <p >Enjoy robust quality control processes, supervisions, and our unique digital reporting for all inspections and repairs across all service modes</p>
                     </div>
 

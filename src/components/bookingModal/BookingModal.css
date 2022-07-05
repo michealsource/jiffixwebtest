@@ -5,34 +5,38 @@
 
 .Modal-logo{
     position: absolute;
-    top: 40px;
-    right: 100px;
+    top: 55px;
+    right: 50px;
     width: 60px;
     height: 20px;
 }
 
 .close-img{
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 10px;
+    right: 20px;
     cursor: pointer;
     height: 18px;
     width: 10px;
 }
 
-.modal-content {
+.modal-content{
     position: relative;
     top: 80px;
     display: flex;
     margin-left: 125px;
     flex-direction: column;
-    width: 850px !important;
+    width: 836px !important;
+    height: 410px;
     pointer-events: auto;
     background-clip: padding-box;
     border-radius: 50px;
     outline: 0;
-    padding: 20px !important;
-    background-color: #1B222A;
+    /* padding: 20px !important; */
+    padding-right: 10px !important;
+    background: linear-gradient(110deg, #EEBC35 13.12%, #F4C84F 27.08%, #F5C851 33.89%, #F6C54C 39.21%, #F3C346 43.15%, #E7B936 51.81%, #E8B121 54.16%, #D99A0D 59.76%);
+    box-shadow: 0px 4px 50px rgba(255, 255, 255, 0.38);
+    border-radius: 50px;
     right: 350px !important;
     -webkit-border-radius: 30px;
     -moz-border-radius: 50px;
@@ -41,47 +45,90 @@
 }
 
 .book{
-    background-color: #1B222A;
-    color: #fff;
-    font-weight: 600;
-    width: 100%;
+    background-color: #FBA91A;
+    color: #1B222A;
+    outline: none;
+    border: none;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+}
+
+.book:hover{
+    background-color: #27ADE3;
 }
 
 .top-modal{
-    color: #fff !important;
-    padding: 20px;
+    /* padding: 20px; */
+    /* background-color: red; */
+    width: 40%;
+    height: auto;
+    text-align: center;
+    /* text-align: center; */
 }
 
 .top-modal h5{
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
+    color: #fff !important;
+    padding-left: 41px;
+    padding-top: 41px;
+    
+    /* text-align: center; */
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .top-modal p{
     font-size: 12px;
-    font-weight: 300;
-    width: 300px;
-    color: #F2F2F2;
-    margin-bottom: -20px !important;
+    font-weight: 500;
+    text-align: center;
+    padding-left: 43px;
+    line-height: 20px;
+    padding-top: 10px;
+    /* width: 300px; */
+    color: #16222C;
+    /* margin-bottom: -20px !important; */
+    /* margin-top: 25px; */
 }
 
 .top-modal span{
-    color: #fff;
-    font-weight: 600;
+    color: #16222C;
+    font-weight: 700;
 }
 
 .booking-field-form{
-    margin-top: -50px;
-    width: 500px;
-    height: 270px;
+    margin-top: -70px;
+    width: 440px;
+    height: 215px;
     background-color: #fff;
-    padding-bottom: 20px;
-    padding: 30px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    padding-left: 25px;
+    padding-right: 31px;
+    padding-top: 25px;
+    /* padding-bottom: 14px !important; */
+    margin-right: 31px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .form-car-container{
@@ -89,26 +136,56 @@
 }
 
 .form-car-container img{
-    width: 320px;
-    height: 220px;
     display: block;
-    margin-left: -20px;
+    /* bottom: 5px; */
+    /* margin-top: 15px; */
+    margin-top: -15px;
 }
 
 .partners-icons{
-    margin-top: 20px;
+    margin-top: 51px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 650px;
+    
+    margin-left: 104px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.form-control, .form-select {
+    border: 1px solid #9B9E9F;
+    width: 180.47px !important;
+    height: 35.1px !important;
+    padding: 0 !important;
+}
+
+.form-control::placeholder { 
+    font-size: 12px !important;
+    font-weight: 400;
+    color: #999999;
 }
 
 .input-outline{
-    height: 40px !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    color: #999999;
+    padding-left: 13px !important;
 }
 
 
 .mobile-close{
+    display: none;
+}
+
+.already-customer-text{
+   font-size: 10px;
+   padding-top: 22px;
+}
+
+
+.already-customer-mobile{
     display: none;
 }
 
@@ -120,11 +197,8 @@
     }
 
     .form-car-container{
-        position: absolute;
-    }
-
-    .form-car-container{
         flex-direction: column;
+        position: absolute;
     }
 
     .partners-icons{
@@ -132,47 +206,46 @@
     }
 
     .booking-field-form{
-        width: 300px !important;
-        height: 410px;
-        margin-left: 11px;
-        margin-top: 20px;
+        width: 260px !important;
+        height: 323px;
+        margin-left: 50px;
+        margin-top: 192px;
         position: absolute;
-        bottom: 20px;
-        /* background-color: green; */
+        /* bottom: 20px; */
         z-index: 1000000;
-        /* background-color: red; */
+
     }
 
     .top-modal p{
         font-size: 11px !important;
-        width: 243px !important;
-        text-align: center;
-        width: 100%;
-        margin: 0 auto;
+        color: #16222C !important;
+        margin-top: 0px !important;
+        width: 300px;
     }
 
     .modal-content {
-        height: 450px !important;
-        width: 380px !important;
-        right: 135px !important;
+        height: 620px !important;
+        width: 363px !important;
+        right: 155px !important;
         top: 20px !important;
-        /* background-color: red !important; */
+     
         position: relative;
-        /* margin-left: 30px; */
+      
     }
 
     .top-modal h5{
         color: #fff !important;
         font-size: 30px !important;
         text-align: center;
-        /* font-size: 300px; */
+        width: 300px !important;
     }
 
     .form-car-container img{
-        width: 376px !important;
-        height: 275px !important;
-        margin-top: 300px;
-        /* position: absolute; */
+        width: 210px !important;
+        height: 130px !important;
+        margin-top: 490px;
+        display: block;
+        margin-left: 65px;
         bottom: 0px;
     }
 
@@ -180,16 +253,7 @@
         display: none;
     }
 
-    .book{
-        margin-top: 3px !important;
-        width: 250px;
-        position: absolute;
-        left: 20px;
-        bottom: 50px;
-        right: 0;
-        
-    }
-
+ 
     .have-account p{
         font-size: 12px !important;
         position: absolute;
@@ -199,8 +263,8 @@
     .mobile-close{
         display: block;
         position: absolute;
-        right: 30px;
-        top: 2px;
+        left: 320px;
+        top: 10px;
 
     }
     .close-img{
@@ -208,8 +272,59 @@
     }
 
     .phone-book{
-        width: 240px !important;
-        margin-left: 10px;
+        width: 170px !important;
+        margin-left: 30px;
+        background-color: #1B222A;
+        color: #fff;
+        font-weight: 600;
+        /* margin-top: -30px !important; */
+    }
+
+    .phone-book:hover{
+        background-color: #D99A0D;
+        color: #fff;
+    }
+
+    /* FORMS FOR MOBILE STYLINGS */
+    .already-customer-text{
+        display: none;
+    }
+    .form-control, .form-select {
+        border: 1px solid #9B9E9F;
+        width: 204.47px !important;
+        height: 31.36px !important;
+        padding: 0 !important;
+    }
+    
+    .form-control::placeholder { 
+        font-size: 12px !important;
+        font-weight: 400;
+        color: #999999;
+    }
+
+    .input-outline{
+        font-size: 12px !important;
+        font-weight: 400;
+        color: #999999;
+        padding-left: 15px !important;
+    }
+
+    .already-customer-mobile{
+      position: absolute;
+      display: block;
+      top: 175px;
+      left: 70px;
+      font-size: 8px;  
+      width: 60%;
+      text-align: center;
+      color: #65617D !important;
+      font-weight: 600 !important;
+    }
+    
+    .signin-mobile{
+        font-weight: 700;
+        color: #65617D;
+        text-decoration: underline;
     }
     
 }

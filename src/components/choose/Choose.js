@@ -16,9 +16,7 @@ const Choose = () => {
 
                         <p>Our mission is to enable your safe, reliable and unhindered mobility, through Quality Centered vehicle repair and maintenance solutions, that is affordable.</p>
                     </div>
-                    
                         <ChooseCarousel />
-                
                 </div>
 
             </div>

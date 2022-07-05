@@ -44,7 +44,13 @@
 
 .carousel-container {
     text-align: center;
+    /* display: flex;
+    flex-direction: column; */
 }
+
+/* .carousel-container img{
+    flex: 1;
+} */
 
 .choose-text {
     font-style: normal;
@@ -93,6 +99,7 @@
     line-height: 25px;
     text-align: center;
     color: #fff;
+    height: 80px !important;
     width: 100%;
     padding: 0px 100px;
     display: flex;
@@ -238,8 +245,8 @@
     }
 
     .choose-carousel-img-first {
-        width: 178px !important;
-        height: 133px !important;
+        width: 120px !important;
+        height: 80px !important;
         display: block;
         margin: 0 auto;
     }
@@ -286,7 +293,7 @@
     }
 
     .carousel-mobile-container-choose {
-        margin-top: 100px;
+        margin-top: 50px;
         text-align: center;
     }
 
@@ -295,6 +302,12 @@
     align-items: center;
     text-align: center;
     margin-bottom: 50px;
+    /* margin-top: -60px; */
+ 
+    }
+
+    .mobile-choose-content h6{
+        padding-top: 30px;
     }
 
     .mobile-choose-content p{
@@ -302,7 +315,13 @@
         margin: 20px auto;
         line-height: 25px;
         font-size: 12px;
+        height: 100px;
     }
+
+    /* .mobile-choose-content h5{
+        background-color: red;
+        margin-top: 30px;
+    } */
 
     .start-from-here-mobile{
         font-size: 30px;
@@ -317,10 +336,6 @@
 
     .start-from-here-mobile span{
         color: #00AFEF;
-    }
-
-    .input-outline{
-       
     }
 
     /* =====ACCORDIAN CSSS===== */
