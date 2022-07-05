@@ -24,7 +24,7 @@
     position: relative;
     top: 80px;
     display: flex;
-    margin-left: 125px;
+    margin-left: 170px;
     flex-direction: column;
     width: 836px !important;
     height: 410px;
@@ -227,9 +227,9 @@
         width: 369px !important;
         right: 135px !important;
         top: 20px !important;
-     
         position: relative;
-      
+        margin-left: 125px;
+        /* left: 0px !important; */
     }
 
     .top-modal h5{
@@ -264,7 +264,6 @@
         position: absolute;
         left: 330px;
         top: 10px;
-
     }
     .close-img{
         display: none;
@@ -276,7 +275,6 @@
         background-color: #1B222A;
         color: #fff;
         font-weight: 600;
-        /* margin-top: -30px !important; */
     }
 
     .phone-book:hover{
@@ -373,5 +371,46 @@
     .range-img{
         width: 43.17px !important;
         height: 45px !important;
+    }
+}
+
+@media(width:414px){
+    .modal-content{
+        width: 420px !important;
+    }
+    .partners-icons{
+        margin-top: 10px !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        margin-left: 55px;
+        position: absolute;
+        bottom: 10px !important;
+    }
+    .booking-field-form{
+        width: 260px !important;
+        height: 323px;
+        margin-left: 79px;
+        margin-top: 192px;
+        position: absolute;
+        z-index: 1000000;
+    }
+    .top-modal{
+        margin-left: 40px;
+    }
+    .mobile-close{
+        display: block;
+        position: absolute;
+        left: 370px;
+        top: 20px;
+    }
+    .form-car-container img{
+        width: 210px !important;
+        height: 130px !important;
+        margin-top: 490px;
+        display: block;
+        margin-left: 110px;
+        bottom: 0px;
     }
 }
