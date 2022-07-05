@@ -219,5 +219,28 @@ nav.nav-bar--hidden {
    -o-transition: all 0.5s;
 }
 
+.login-btn-click{
+    position: absolute;
+    top: 12px;
+    left: 168px !important;
+    background-color: #16222C;
+    color: #F2F2F2;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.login-btn-click:hover{
+    background-color: #FBA91A;
+    color: #fff;
+}
+
 }
 

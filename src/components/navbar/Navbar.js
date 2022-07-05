@@ -52,7 +52,8 @@ useEffect(() => {
         <div className="logo-container">
             <img src={logo} alt="company logo" />
         </div> 
-
+        {!menu?<button className='login-btn-click'>SIGN IN</button>:null}
+        
         {menu?<FiX className='humbuger' size={25} onClick={()=>setMenu(!menu)}/>:<FaBars className='humbuger' size={25} onClick={()=>setMenu(!menu)}/>}
         <div className={menu?"mobile-nav-menu":"links"}>
             <Link to="/">Home</Link>

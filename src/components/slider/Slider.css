@@ -112,6 +112,7 @@
 @media(max-width:650px){
     .carousel-mobile-container{
         overflow-x: hidden !important;
+        margin-top: 5px !important;
     }
     .top-carosel-mobile-container{
         background-color: #16222C;
