@@ -42,7 +42,7 @@ function InputForm() {
         </Col>
 
         <Col className='col-md-6'>
-        <button className="form-submit-next-btn">Proceed<FaLongArrowAltRight/></button>
+        <button className="form-submit-next-btn tab-signup">Proceed<FaLongArrowAltRight/></button>
         </Col>
         
       </Row>

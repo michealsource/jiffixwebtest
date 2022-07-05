@@ -8,10 +8,12 @@ function Login() {
       <Row>
         <h5 style={{paddingBottom:"20px", fontSize:"20px",fontWeight:"600"}}>Sign In</h5>
         <Col className='col-md-12 mb-3'>
-          <Form.Control type="email" placeholder="Email" className="input-outline" />
+          {/* <Form.Control type="email" placeholder="Email" className="input-outline login-input-width" /> */}
+          <input type="email" placeholder="email" className='login-input-width' />
+          
         </Col>
         <Col className='col-md-12 mb-3'>
-          <Form.Control type="text" placeholder="Password" className="input-outline" />
+        <input type="password" placeholder="password" className='login-input-width' />
           <p style={{color:"#1083AA",textDecoration:"underline",fontSize:"13px",paddingTop:"15px"}}>Forgot password?</p>
           <div className="dnt-have-account-container">
                 <p>Don’t have an account? <span style={{color:"#1083AA",textDecoration:"underline"}}>Sign Up</span></p>

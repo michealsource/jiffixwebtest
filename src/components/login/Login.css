@@ -10,6 +10,7 @@
     padding: 10px 25px;
     outline: none;
     border: none;
+    margin-top: -25px;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -35,6 +36,13 @@
  align-items: center;
  font-size: 13px;
  margin-top: -10px;
+}
+
+.login-input-width{
+    width: 100% !important;
+    border: 1px solid #9B9E9F;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 @media(max-width:650px){

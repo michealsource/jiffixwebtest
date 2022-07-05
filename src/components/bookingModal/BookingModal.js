@@ -40,7 +40,7 @@ const BookingModal = ({ show, handleClose }) => {
                                 <Form.Control type="text" placeholder="First Name" className="input-outline modal-phone" />
                             </Col>
                             <Col className='col-md-6 mb-2'>
-                                <Form.Control type="text" placeholder="First Name" className="input-outline modal-phone" />
+                                <Form.Control type="text" placeholder="Last Name" className="input-outline modal-phone" />
                             </Col>
 
                             <Col className='col-md-6 mb-2'>
