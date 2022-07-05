@@ -6,8 +6,9 @@ const TestimonialMobile = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 2000,
         autoplay: true,
+        autoplaySpeed: 11000,
         slidesToShow: 1,
         slidesToScroll: 1
       };
@@ -23,7 +24,7 @@ const TestimonialMobile = () => {
                 <h4>Why our customers <span>love Jiffix</span></h4>
                 <h4 className='qote'>“</h4>
                 <p></p>
-                <p>Jiffix actually exceeded my expectation. Super impressed with the service. They kept to time, gave me the right diagnosis and recommendation and it worked. The feel also very decent. I felt i got more than i paid for. Very professional and efficient. I think i found the perfect company for my cars. Thanks Jiffix</p>
+                <p>Jiffix actually exceeded my expectation. Super impressed with the service. They kept to time, gave me the right diagnosis and recommendation and it worked. The fee also very decent. I felt I got more than I paid for. Very professional and efficient. I think I found the perfect company for my cars. Thanks Jiffix</p>
                 <span>Timi Olatunji</span>
             </div>
 

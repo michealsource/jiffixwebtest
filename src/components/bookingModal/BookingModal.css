@@ -208,7 +208,7 @@
     .booking-field-form{
         width: 260px !important;
         height: 323px;
-        margin-left: 50px;
+        margin-left: 60px;
         margin-top: 192px;
         position: absolute;
         /* bottom: 20px; */
@@ -225,8 +225,8 @@
 
     .modal-content {
         height: 620px !important;
-        width: 363px !important;
-        right: 155px !important;
+        width: 382px !important;
+        right: 135px !important;
         top: 20px !important;
      
         position: relative;
@@ -263,7 +263,7 @@
     .mobile-close{
         display: block;
         position: absolute;
-        left: 320px;
+        left: 345px;
         top: 10px;
 
     }
