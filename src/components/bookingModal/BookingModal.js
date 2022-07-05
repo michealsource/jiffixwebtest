@@ -78,14 +78,14 @@ const BookingModal = ({ show, handleClose }) => {
                     </div>
                 </div>
                 <div className="partners-icons">
-                    <img width={49.64} height={20} src={ford} alt="" />
-                    <img width={106.57} height={18.24} src={lexus} alt="" />
+                    <img className='ford-img' width={49.64} height={20} src={ford} alt="" />
+                    <img className='lexus-img' width={106.57} height={18.24} src={lexus} alt="" />
                     <img className='bme-img' width={36} height={30} src={bmw} alt="" />
-                    <img width={32.43} height={18.24} src={honda} alt="" />
-                    <img width={29.12} height={20.68} src={toyota} alt="" />
-                    <img width={29.79} height={18.24} src={white} alt="" />
-                    <img width={19.86} height={18.24} src={benz} alt="" />
-                    <img width={102.6} height={90} src={rangerover} alt="" />
+                    <img className='honda-img' width={32.43} height={18.24} src={honda} alt="" />
+                    <img className='toyota-img' width={29.12} height={20.68} src={toyota} alt="" />
+                    <img className='white-img' width={29.79} height={18.24} src={white} alt="" />
+                    <img className='benz-img' width={19.86} height={18.24} src={benz} alt="" />
+                    <img className='range-img' width={102.6} height={90} src={rangerover} alt="" />
                 </div>
             </Modal>
         </div>

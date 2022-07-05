@@ -148,7 +148,6 @@
     justify-content: space-between;
     align-items: center;
     width: 650px;
-    
     margin-left: 104px;
     position: absolute;
     bottom: -10px;
@@ -201,14 +200,14 @@
         position: absolute;
     }
 
-    .partners-icons{
+    /* .partners-icons{
         display: none;
-    }
+    } */
 
     .booking-field-form{
         width: 260px !important;
         height: 323px;
-        margin-left: 60px;
+        margin-left: 55px;
         margin-top: 192px;
         position: absolute;
         /* bottom: 20px; */
@@ -225,7 +224,7 @@
 
     .modal-content {
         height: 620px !important;
-        width: 382px !important;
+        width: 369px !important;
         right: 135px !important;
         top: 20px !important;
      
@@ -263,7 +262,7 @@
     .mobile-close{
         display: block;
         position: absolute;
-        left: 345px;
+        left: 330px;
         top: 10px;
 
     }
@@ -326,5 +325,53 @@
         color: #65617D;
         text-decoration: underline;
     }
+    /* IMAGE RESIZE */
+
+    .partners-icons{
+        margin-top: 10px !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        margin-left: 25px;
+        position: absolute;
+        bottom: 10px !important;
+    }
+    .ford-img{
+        width: 22.91px !important;
+        height: 10px !important;
+    }
+
+    .lexus-img{
+        width: 49.19px !important;
+        height: 9.12px !important;
+    }
+
+    .bme-img{
+        width: 11px !important;
+        height: 9.12px !important;
+    }
+    .honda-img{
+        width: 14.97px !important;
+        height: 9.12px !important;
+    }
+    .toyota-img{
+        width: 13.44px !important;
+        height: 10.34px !important;
+    }
+
+    .white-img{
+        width: 13.75px !important;
+        height: 9.12px !important;
+    }
     
+    .benz-img{
+        width: 9.16px !important;
+        height: 9.12px !important;
+    }
+
+    .range-img{
+        width: 43.17px !important;
+        height: 45px !important;
+    }
 }
