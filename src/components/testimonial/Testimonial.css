@@ -16,6 +16,10 @@
     margin-top: -38px;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    margin-top: -30px !important;
+}
+
 .testmonial-title {
     font-size: 40px;
     width: 380px;

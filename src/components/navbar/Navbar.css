@@ -15,7 +15,9 @@ nav{
     align-items: center;
 }
 
-
+.login-btn-click{
+    display: none;
+}
 .nav{
     position: sticky;
     width: 100%;
@@ -222,7 +224,8 @@ nav.nav-bar--hidden {
 .login-btn-click{
     position: absolute;
     top: 12px;
-    left: 150px !important;
+    /* left: 150px !important; */
+    right: 60px;
     background-color: #16222C;
     color: #F2F2F2;
     font-size: 14px;
@@ -230,6 +233,7 @@ nav.nav-bar--hidden {
     font-weight: 600;
     outline: none;
     border: none;
+    display: block;
     padding: 10px 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
