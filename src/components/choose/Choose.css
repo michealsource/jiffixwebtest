@@ -349,7 +349,14 @@
     }
 
     .accordian-btn{
-        height: 45px !important;
+        height: 40px !important;
+        width: 50%;
+        margin-left: 144px;
+    }
+
+    .accordian-btn:hover{
+        background-color: #FBA91A;
+        color: #fff;
     }
 
     .accordian-signup-content{
@@ -385,8 +392,32 @@
     }
 
     .accordian-sign-btn{
-        width: 100% !important;
-        height: 45px !important;
+        width: 150px !important;
+        margin-left: 155px !important;
+        /* margin-top: -0px !important; */
+        /* width: 100% !important;
+        height: 40px !important;
+        height: 40px !important;
+        width: 50%;
+        margin-left: 144px; */
     }
+
+    .acord{
+        width: 30px !important;
+    }
+
+    /* CUSTOM INPUT FOR MOBILE SYLINGS */
+    .custom-input{
+        border: 1px solid #9B9E9F;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        width: 300px;
+        height: 40px;
+}
 
 }
