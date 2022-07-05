@@ -222,7 +222,7 @@ nav.nav-bar--hidden {
 .login-btn-click{
     position: absolute;
     top: 12px;
-    left: 168px !important;
+    left: 150px !important;
     background-color: #16222C;
     color: #F2F2F2;
     font-size: 14px;
